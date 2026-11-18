@@ -16,6 +16,8 @@ When a trigger condition below is met, read the corresponding SKILL.md before re
 - When I ask to create or edit a spreadsheet, table, or Excel file → read sg3451/claude_skills/xlsx/SKILL.md
 - When I ask to build a presentation, slide deck, or PowerPoint → read sg3451/claude_skills/pptx/SKILL.md
 - When I ask to format references, generate a bibliography, or manage citations → read sg3451/claude_skills/citation-management/SKILL.md
+- When I ask Claude to write, draft, rewrite, or polish any prose I might send or publish as my own (emails, reviewer or editor letters, manuscript text, summaries, abstracts, messages), or when I paste text and ask to improve, edit, or humanize it → read sg3451/claude_skills/humanizer/SKILL.md and apply it as a final pass before responding, without being asked. Skip for code, citations and reference lists, quoted material, and short conversational replies. Never alter facts, numbers, names, or citations while humanizing, and keep the (N)(Author et al., YEAR; PMID; DOI) citation format intact.
+- If /Human and the humanizer conflict on a draft meant to be sent or published as mine, the humanizer wins for that draft. /Human still governs the rest of the reply.
 
 ### Evaluation & Review
 - When I ask to critically evaluate a manuscript, abstract, or study design → read sg3451/claude_skills/peer-review/SKILL.md and sg3451/claude_skills/scientific-critical-thinking/SKILL.md
